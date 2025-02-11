@@ -1,8 +1,10 @@
 const express = require('express');
+const superheroRouters = require('./routes/superheroRoutes');
 
 const app = express();
 
 app.use(express.json())
+app.use('/api/superheroes', superheroRouters);
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
