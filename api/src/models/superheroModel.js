@@ -9,15 +9,14 @@ const SuperheroModel = {
         superheroes.push(newHero);
         return newHero;
     },
-
+    
     findAll: () => {
-        return [...superheroes].sort((a,b) => b.humilityScore - a.humilityScore);
+        return [...superheroes].sort((a, b) => b.humilityScore - a.humilityScore);
     },
-
+    
     findByName: (name) => {
         return superheroes.find(hero => hero.name.toLowerCase() === name.toLowerCase());
     }
-
 };
 
 module.exports = SuperheroModel;
