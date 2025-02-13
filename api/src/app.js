@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
+const corsFunc = require('./middleware/cors');
 const superheroRoutes = require('./routes/superheroRoutes');
 
 app.use(express.json());
+app.use(corsFunc);
 app.use('/', superheroRoutes);
 
 app.use((err, req, res, next) => {
