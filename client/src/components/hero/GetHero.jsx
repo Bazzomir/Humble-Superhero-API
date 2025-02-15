@@ -6,7 +6,7 @@ const GetHero = ({ superheroes }) => {
             <div className="row">
                 {superheroes.map((hero) => (
                     <div className="hero-card col-md-4 col-sm-6 mb-4" key={hero.name}>
-                        <div className="hero-card-inner">
+                        <div className="hero-card-inner border-shadow">
                             <div className="hero-card-front">
                                 <h3 className="m-0 p-0">{hero.name}</h3>
                                 <p className="m-0 p-0">{hero.superpower}</p>

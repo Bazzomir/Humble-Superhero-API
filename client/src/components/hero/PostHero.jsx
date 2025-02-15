@@ -24,7 +24,7 @@ const PostHero = ({ onAdd }) => {
     }
 
     return (
-        <form onSubmit={handleSubmit} className="form row p-4 border rounded justify-content-center align-items-center text-center gap-5">
+        <form onSubmit={handleSubmit} className="form row p-4 border border-shadow rounded justify-content-center align-items-center text-center gap-5">
             <h2 className="text-xl font-bold mb-0">Add New Superhero</h2>
             <div>
                 <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Superhero Name" className="input-create" required />
