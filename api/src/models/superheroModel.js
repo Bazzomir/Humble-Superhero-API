@@ -19,4 +19,5 @@ const SuperheroModel = {
     }
 };
 
-module.exports = SuperheroModel;
+// module.exports = SuperheroModel;
+export default SuperheroModel;

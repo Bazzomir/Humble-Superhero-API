@@ -16,4 +16,5 @@ const validateSuperhero = (req, res, next) => {
     next();
 };
 
-module.exports = validateSuperhero;
+// module.exports = validateSuperhero;
+export default validateSuperhero;

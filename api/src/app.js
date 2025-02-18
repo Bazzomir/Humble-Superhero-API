@@ -1,7 +1,11 @@
-const express = require('express');
+// const express = require('express');
+import express from 'express';
+// const corsFunc = require('./middleware/cors');
+import corsFunc from './middleware/cors.js'
+// const superheroRoutes = require('./routes/superheroRoutes');
+import superheroRoutes from './routes/superheroRoutes.js';
+
 const app = express();
-const corsFunc = require('./middleware/cors');
-const superheroRoutes = require('./routes/superheroRoutes');
 
 app.use(express.json());
 app.use(corsFunc);
@@ -14,4 +18,5 @@ app.use((err, req, res, next) => {
     });
 });
 
-module.exports = app;
+// module.exports = app;
+export default app;

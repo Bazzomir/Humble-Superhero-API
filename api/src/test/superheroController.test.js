@@ -1,4 +1,6 @@
-const SuperheroController = require('../controllers/superheroController');
+// const SuperheroController = require('../controllers/superheroController');
+import SuperheroController from '../controllers/superheroController.js';
+import { jest } from '@jest/globals';
 
 describe("Superhero Controller", () => {
     test("Should retrun an array of superhero", async () => {

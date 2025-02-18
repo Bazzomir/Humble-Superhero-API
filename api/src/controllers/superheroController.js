@@ -1,4 +1,5 @@
-const SuperheroModel = require('../models/superheroModel');
+// const SuperheroModel = require('../models/superheroModel');
+import SuperheroModel from '../models/superheroModel.js';
 
 const SuperheroController = {
     createSuperhero: (req, res) => {
@@ -20,4 +21,5 @@ const SuperheroController = {
     }
 };
 
-module.exports = SuperheroController;
+// module.exports = SuperheroController;
+export default SuperheroController;
