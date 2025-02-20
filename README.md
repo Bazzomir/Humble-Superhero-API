@@ -83,3 +83,9 @@ Conclusion
 You have now successfully downloaded, installed, and run a Humble-Superhero-API application locally. Happy coding!
 
 ### `Please ensure all steps are completed correctly.`
+
+### "If I had more time":
+ - I would deploy the project so that it is available to everyone, without having to download and install it locally.
+ - I would make the Search bar functional for easier searching.
+ - I would add an option to upload a picture of the Superhero.
+ - I would connect it to a database (MongoDB) so that all Superheroes are constantly available.
