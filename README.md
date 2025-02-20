@@ -71,6 +71,9 @@ Using yarn:
 This will start the application and open it in your default web browser at `http://localhost:3000/`. (Front-End React.js)
 This will start the application and open it in your default web browser at `http://localhost:3030/`. (Back-End Express.js)
 
+`In the api folder`
+Copy the part from `.env.example`, create a new file `.env` and paste the copied stuff into it.
+
 
 Troubleshooting
 
