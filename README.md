@@ -1,4 +1,4 @@
-# Humble-Superhero-API
+# Humble-Superhero-API 🦸
 
 # Project Overview
 
