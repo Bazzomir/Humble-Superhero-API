@@ -7,7 +7,7 @@ The Humble Superhero API is a simple yet meaningful application designed to cele
 # Tech Stack
  - Backend: `Express.js` (Node.js framework)
  - Frontend: `React.js` with `Bootstrap` for styling
- - Data Storage: In-memory database [array]
+ - Data Storage: In-memory database `[array]`
 
 # Project Instructions
 
@@ -35,8 +35,10 @@ Change into the project directory:
 
 ### `cd Humble-Superhero-API`
 
-Then enter the directory: ### `cd client` (for Front-End)
-Then enter the directory: ### `cd api` (for Back-End)
+Then enter the directory (for Front-End): 
+### `cd client` 
+Then enter the directory (for Back-End):
+### `cd api` 
 
 ### `The steps are the same for both parts, only the direction is different!!!`
 
@@ -44,19 +46,24 @@ Then enter the directory: ### `cd api` (for Back-End)
 
 Run the following command to install the required dependencies:
 
-Using npm: ### `npm install`
+Using npm: 
+### `npm install`
 
-Using yarn: ### `yarn install`
+Using yarn: 
+### `yarn install`
 
 # Step 4: Start the Development Server
 
 To start the local development server, run:
 
-Using npm: ### `npm start`
+Using npm: 
+### `npm start`
 
-Using yarn: ### `yarn start`
+Using yarn: 
+### `yarn start`
 
-This will start the application and open it in your default web browser at `http://localhost:3000/`.
+This will start the application and open it in your default web browser at `http://localhost:3000/`. (Front-End React.js)
+This will start the application and open it in your default web browser at `http://localhost:3030/`. (Back-End Express.js)
 
 
 Troubleshooting
@@ -75,4 +82,4 @@ Conclusion
 
 You have now successfully downloaded, installed, and run a Humble-Superhero-API application locally. Happy coding!
 
-Please ensure all steps are completed correctly.
+### `Please ensure all steps are completed correctly.`
