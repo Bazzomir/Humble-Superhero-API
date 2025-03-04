@@ -30,8 +30,6 @@ Before proceeding, ensure you have the following installed:
 Clone it using Git:
 
  - https: git clone `https://github.com/Bazzomir/Humble-Superhero-API.git`
- - SSH: git clone `git@github.com:Bazzomir/Humble-Superhero-API.git`
- - GitHub CLI: git clone `gh repo clone Bazzomir/Humble-Superhero-API`
 
 https://medium.com/@hammadrao891/how-to-clone-a-react-application-from-github-and-run-4f9b742e568a
 
